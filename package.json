@@ -1,0 +1,19 @@
+{
+  "name": "apka-pogodowa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "express": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "^6.4.3"
+  }
+}
